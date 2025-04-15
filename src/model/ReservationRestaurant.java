@@ -25,9 +25,9 @@ public class ReservationRestaurant extends Reservation{
 		if (service == 1) {
 			s.append("premier ");
 		} else {
-			s.append("deuxième ");
+			s.append("deuxiï¿½me ");
 		}
-		s.append("service.\n");
+		s.append("service.");
 		return s.toString();
 	}
 	
